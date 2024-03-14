@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="FB_IMG_1689941977626.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>Alexander Arnold</b></h4>
+    <p class="w3-text-grey">Jugador Profesional</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Inicio</a> 
+  
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Momentos Iconicos</b></h1>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="captura-del-saque-de-esquina-de-alexander-arnold-al-fc-barcelona-en-las-semifinales-de-la-champions-league-2018-19--captura-movistar.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Liverpool 4 - 0 Barcelona</b></p>
+        <p>No era una estrategia. No estaba ideado. En realidad me estaba alejando porque consideraba que era mejor dejar que otro compañero sacara fue entonces cuando miró al área y se encontró a un rival desorientado todos los jugadores del Barcelona estaban despistados y no miraban al balón, simplemente traté de ponerlo donde había un hueco fue un gol increíble</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="Screenshot_20230721_080503_Instagram.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Defensor Asistidor</b></p>
+        <p>Alexander Arnold se convierte en el primer defensor en la historia de la premier league en conseguir mas de 10 asistencias siendo defensor por 3 temporadas de liga</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="Screenshot_20230721_081821_Instagram~2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Actuacion Magistral</b></p>
+        <p>La actuacion de Trent Alexander Arnold contra leicester: 2 tiros, 1 driblar exitoso, 3 pases clave, 2 asistencias, 1 gol.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="Screenshot_20230721_082518_Instagram~2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>5 asistencias consecutivas</b></p>
+        <p>Trent Alexander Arnold es el unico jugador en la historia de la premier league en registrar una asistencia en 5 partidos consecutivas en mas de una ocasion</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="Screenshot_20230721_083003_Instagram.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Campeon de todo a nivel de clubes</b></p>
+        <p>Alexander arnold a la edad de 24 años puede presumir haberlo ganado todo con su club: 1 champions league, 1 premier league, 1 carabao cup, 1 FA cup, 1 community shield, 1 mundial de clubes, 1 supercopa de europa.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="Screenshot_20230721_083421_Instagram.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Cambio de posicion?</b></p>
+        <p>El liverpool ha centrado su atencion en firmar un nuevo lateral derecho este verano 2023. se cree que jurgen klopp esta dispuesto a utilixar a trent en el mediocampo mas a menudo y siente que el lado derecho necesita añadir otro lateral para la temporada 23/24</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Images of Me -->
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>Acerca de alexander arnold</b></h4>
+    <p>Trent Alexander-Arnold salió de la Academia del Liverpool FC para levantar el conjunto completo de grandes honores antes de cumplir 24 años. 
+        El Scouser se unió al club a la edad de seis años y, después de jugar principalmente en el centro del campo mientras progresaba en las categorías inferiores, ha redefinido el papel de un lateral derecho al convertirse en un punto de apoyo creativo dentro del equipo de Jürgen Klopp.
+        Alexander-Arnold fue una parte integral de un equipo de los Reds que levantó cuatro trofeos importantes en 14 meses y superó la marca de las 100 apariciones para el club de su infancia durante una gloriosa temporada 2019-20 que contó con el éxito en la Premier League, la Copa Mundial de Clubes de la FIFA y la Supercopa de la UEFA. 
+        El internacional de Inglaterra hizo historia al convertirse en el jugador más joven en comenzar finales consecutivas de la Liga de Campeones cuando el Liverpool venció al Tottenham Hotspur en la final de 2019 en Madrid y tampoco es ajeno a los récords individuales nacionales.
+        En 2019-20, contribuyó con 13 asistencias en la Premier League cuando los Reds conquistaron el título, un récord para un defensor, habiendo elevado el punto de referencia con una cuenta de 12 en 2018-19 y nuevamente en 2021-22. 
+        Trent, un jugador dinámico y habilidoso, capitaneó a los equipos sub-16 y sub-18 del Liverpool en su viaje al máximo nivel con Klopp, que comenzó con un cambio de posición del mediocampo al lateral derecho de la defensa durante las últimas etapas de su tiempo en la Academia.
+        Debutó en la categoría absoluta en octubre de 2016 y nunca miró hacia atrás, y su importancia para Klopp se destaca por el hecho de que participó en los 38 partidos durante la temporada ganadora de la Premier League de su equipo. 
+        Alexander-Arnold aseguró que su viaje de cuento de hadas continuaría con el Liverpool cuando firmó un nuevo contrato a largo plazo en julio de 2021, el comienzo de una campaña memorable. 
+        El No.66 produjo 18 asistencias, la mejor marca de su carrera, a lo largo del viaje de 63 juegos, durante el cual alcanzó otra final de la Liga de Campeones y recogió las medallas de ganador de la Copa Carabao y la Copa FA..</p>
+    <hr>
+
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contacto</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>jhonalexanderarnold@gamil.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Liverpool, UK</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>554623987</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Nombre</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Correo</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Mensaje</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Enviar mensaje</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>PIE DE PÁGINA</h3>
+      <p>Es un desarrollador pero es un país como un sitio web. Pero acaba la salsita de la vida, la puerta de la cama de la vida, las ultricias, los deberes, diam embarazada, no fringilla.</p>
+      <p>Desarrollado por <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Santiago Pahuana</a></p>
+    </div>
+  
+   
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Desarrollado por <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">Santiago Pahuana</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
